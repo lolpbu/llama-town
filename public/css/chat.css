@@ -1,0 +1,45 @@
+.cont {
+    margin: auto;
+    position: relative;
+}
+
+.chat {
+    width: 250px;
+    background-color: rgba(0,0,0,0.25);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#chat_input {
+    width: 225px;
+    background-color: rgba(0,0,0,0);
+}
+#chat_input:focus {
+    outline: none;
+}
+
+#chat {
+    height: 250px;
+    overflow-y: scroll;
+    bottom: 22px;
+}
+
+.chat-msg {
+    font: 12px Arial;
+    border: 1px solid rgba(183, 255, 183, 0.5);
+    overflow-wrap: break-word;
+}
+
+
+/* DEBUG */
+/* #chat {
+    border: 3px solid red;
+}
+#chat_form {
+    border: 3px solid yellow;
+}
+#chat_input {
+    border: 5px solid blue;
+} */

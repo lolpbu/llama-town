@@ -1,0 +1,14 @@
+bin/
+obj/
+.vs/
+.vscode/
+
+*.sln
+*.njsproj
+*.njsproj.user
+
+package-lock.json
+node_modules/
+
+**/*.js
+**/*js.map

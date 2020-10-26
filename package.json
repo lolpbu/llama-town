@@ -1,0 +1,27 @@
+{
+  "name": "llama-town",
+  "version": "0.0.0",
+  "description": "gaming",
+  "main": "app.js",
+  "author": {
+    "name": "lopbu :)"
+  },
+  "scripts": {
+    "build": "tsc -p  .",
+    "watch": "tsc -w",
+    "run": "node app.js",
+    "a": "tsc -p . && node app.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/socket.io": "^2.1.11",
+    "@types/socket.io-client": "^1.4.34",
+    "typescript": "^3.2.2",
+    "typescript-styled-plugin": "^0.15.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "loppbbu": "^1.2.9",
+    "socket.io": "^2.3.0"
+  }
+}
